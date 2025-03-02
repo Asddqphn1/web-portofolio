@@ -26,7 +26,7 @@ function AboutSection() {
   return (
     <>
       <section
-        className="h-screen w-full bg-linear-to-t from-gray-800 to-black absolute poppins-light"
+        className="h-dvh w-full bg-linear-to-t from-gray-800 to-black absolute poppins-light"
         id="AboutSection"
       >
         <div className="absolute top-40 left-20 lg:left-260 lg:top-0 lg:mt-100">

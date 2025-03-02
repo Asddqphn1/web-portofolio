@@ -4,15 +4,15 @@ function Contact() {
   return (
     <section
       id="ContactSection"
-      className="absolute h-screen w-full top-[400vh] bg-black border-none"
+      className="absolute lg:h-screen w-full top-[500vh] lg:top-[400vh] bg-black border-none"
     >
-      <h1 className="text-3xl text-center top-20 left-20 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text lg:text-4xl font-extrabold text-transparent font-bold absolute lg:top-20 lg:left-147">
+      <h1 className="text-3xl text-center top-20 left-30 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text lg:text-4xl font-extrabold text-transparent font-bold absolute lg:top-20 lg:left-147">
         CONTACT
       </h1>
 
       <form
         action=""
-        className="relative z-1 bg-white mt-40 mb-0 mx-auto space-y-4 rounded-lg p-4 shadow-lg w-100 sm:p-6 lg:p-8"
+        className="relative z-1 bg-white mt-40 mb-0 w-dvw mx-auto space-y-4 rounded-lg p-4 shadow-lg lg:w-100 sm:p-6 lg:p-8"
       >
         <label htmlFor="nama">Nama:</label>
         <input

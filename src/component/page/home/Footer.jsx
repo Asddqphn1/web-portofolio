@@ -2,13 +2,13 @@ import { HashLink } from "react-router-hash-link";
 
 function Footer() {
   return (
-    <footer className="bg-gray-100 w-full absolute top-[500vh]">
+    <footer className="bg-gray-100 w-full absolute top-[570vh] lg:top-[500vh]">
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center text-teal-600">
           <img
             src="./image/Logo1.png"
             alt=""
-            className="w-20 h-20 absolute top-10 left-125"
+            className="w-20 h-20 absolute top-10 left-10 lg:left-125"
           />
           <span className="text-2xl">As Siddiqi Pohan</span>
         </div>

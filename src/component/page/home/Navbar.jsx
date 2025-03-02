@@ -85,13 +85,13 @@ function Navbar() {
           ></span>
         </button>
         <img
-          src="./image\DALL·E 2025-02-26 00.03.20 - A modern and minimalist logo with the word 'Pohan' in bold, sleek typography. The design should be clean and professional, incorporating a subtle abst.png"
+          src="./image/Logo1.png"
           alt=""
-          className="w-10 h-10 mb-2"
+          className="w-10 h-10 mb-2 bg-white rounded-full"
         />
       </nav>
       <aside
-        className={`bg-gray-500 fixed z-1 top-15 w-full h-[98vh] box-border pl-10 pt-8  ${
+        className={`bg-gray-500 fixed z-3 top-15 w-full h-[98vh] box-border pl-10 pt-8  ${
           active
             ? "-translate-x-full"
             : "translate-x-0 transition duration-300 ease-in-out"
@@ -130,7 +130,7 @@ function Navbar() {
           </li>
           <li className="pl-6 box-border">
             <a
-              href=""
+              href="#AchievementSection"
               className="h-8 absolute top-60 left-0 ml-16 inline-block font-bold hover:text-white hover: transition duration-300 ease-in-out"
             >
               ACHIEVEMENT
@@ -145,7 +145,7 @@ function Navbar() {
           </li>
           <li className="pl-6 box-border">
             <a
-              href=""
+              href="#HobySection"
               className="h-8 absolute top-85 left-16 inline-block font-bold hover:text-white hover: transition duration-300 ease-in-out"
             >
               HOBBIES
@@ -160,7 +160,7 @@ function Navbar() {
           </li>
           <li className="pl-6 box-border">
             <a
-              href=""
+              href="#ContactSection"
               className="h-8 absolute left-4 top-112 ml-12 inline-block font-bold hover:text-white hover: transition duration-300 ease-in-out"
             >
               CONTACT

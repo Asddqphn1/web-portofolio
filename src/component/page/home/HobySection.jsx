@@ -3,25 +3,25 @@ function HobySection() {
   return (
     <section
       id="HobySection"
-      className="poppins-light h-screen w-full bg-linear-to-t from-black to-gray-800 absolute top-[300vh] flex flex-col lg:flex-row pl-20 pr-20 pt-45 place-content-center gap-40"
+      className="poppins-light h-[300vh] lg:h-screen w-full bg-linear-to-t from-black to-gray-800 absolute top-[300vh] flex flex-col lg:flex-row pl-20 pr-20 pt-45 place-content-center gap-40"
     >
-      <h1 className="text-3xl ml-20 -mt-5 top-35 left-20 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text lg:text-4xl font-extrabold text-transparent font-bold absolute lg:top-25 lg:left-125">
+      <h1 className="text-3xl -mt-5 top-20 left-30 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text lg:text-4xl font-extrabold text-transparent font-bold absolute lg:top-25 lg:left-150">
         HOBBIES
       </h1>
-      <div className="w-[300px] h-[350px] bg-transparent cursor-pointer group perspective-[1000px]">
-        <div className="relative transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
-          <div className="absolute backface-hidden border-4 border-[#3B82F6] rounded-lg shadow-lg w-full h-full">
+      <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px] ">
+        <div className="relative -top-110 -left-8 lg:top-0 lg:left-10 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
+          <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
               src="../../../../image/Gambar3.jpg"
               alt=""
               className="w-full h-70"
             />
-            <p className="text-xl text-white font-bold text-center pt-4 p-6 ">
-              HOVER FOR DETAIL
+            <p className="bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-2xl font-extrabold text-transparent text-center pt-10 p-6 ">
+              BERMAIN VOLI
             </p>
           </div>
-          <div className="absolute backface-hidden rotate-y-[180deg] bg-gradient-to-b from-black to-gray-500 rounded-lg text-white shadow-lg w-full h-full">
-            <p className="text-xl text-white font-bold text-center pt-0 p-6 ">
+          <div className="absolute backface-hidden rotate-y-[180deg] bg-white rounded-lg text-white shadow-lg w-full h-full">
+            <p className="text-lg text-black font-bold text-center pt-0 p-6 poppins-light">
               Salah satu hobi saya adalah bermain voli. Saya kenal voli sejak
               duduk dibangku SMA, bermula dari diajak teman saya latihan di
               sebuah club dan sempat ingin menjadi atlet profesional. Namun
@@ -30,20 +30,20 @@ function HobySection() {
           </div>
         </div>
       </div>
-      <div className="w-[300px] h-[350px] bg-transparent cursor-pointer group perspective-[1000px]">
-        <div className="relative transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
-          <div className="absolute backface-hidden border-4 border-[#3B82F6] rounded-lg shadow-lg w-full h-full">
+      <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px]">
+        <div className="relative -top-130 -left-8 lg:top-0 lg:left-4 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
+          <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
               src="../../../../image/image.png"
               alt=""
               className="w-full h-70"
             />
-            <p className="text-xl text-white font-bold text-center pt-4 p-6 ">
-              HOVER FOR DETAIL
+            <p className="bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-2xl font-extrabold text-transparent text-center pt-10 p-6 ">
+              BERMAIN RUBIK
             </p>
           </div>
-          <div className="absolute backface-hidden rotate-y-[180deg] bg-gradient-to-b from-black to-gray-500 rounded-lg text-white shadow-lg w-full h-full">
-            <p className="text-xl text-white font-bold text-center pt-0 p-6 ">
+          <div className="absolute backface-hidden rotate-y-[180deg] bg-white rounded-lg text-white shadow-lg w-full h-full">
+            <p className="text-lg text-black font-bold text-center pt-0 p-6 poppins-light ">
               Bermain rubik menurut saya adalah hobi yang sangat menantang dan
               mengasah kemampuan otak saya. Saya sangat menyukai bermain rubik
               karena dapat mengasah kemampuan otak saya dalam mengidentifikasi
@@ -52,20 +52,20 @@ function HobySection() {
           </div>
         </div>
       </div>
-      <div className="w-[300px] h-[350px] bg-transparent cursor-pointer group perspective-[1000px]">
-        <div className="relative transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
-          <div className="absolute backface-hidden border-4 border-[#3B82F6] rounded-lg shadow-lg w-full h-full">
+      <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px]">
+        <div className="relative -top-150 -left-8 lg:top-0 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
+          <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
               src="../../../../image/Desaign.png"
               alt=""
               className="w-full h-70"
             />
-            <p className="text-xl text-white font-bold text-center pt-4 p-6 ">
-              HOVER FOR DETAIL
+            <p className="bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-2xl font-extrabold text-transparent text-center pt-10 p-6 ">
+              BERMAIN GAME
             </p>
           </div>
-          <div className="absolute backface-hidden rotate-y-[180deg] bg-gradient-to-b from-black to-gray-500 rounded-lg text-white shadow-lg w-full h-full">
-            <p className="text-xl text-white font-bold text-center pt-10 p-6 ">
+          <div className="absolute backface-hidden rotate-y-[180deg] bg-white rounded-lg text-white shadow-lg w-full h-full">
+            <p className="text-lg text-black font-bold text-center pt-10 p-6 poppins-light ">
               Bermain game merupakan hobi yang hampir dimiliki oleh semua orang
               terutama para remaja dan anak-anak. Bermain game dapat meredakan
               stress akibat kelelahan dan sebagainya
