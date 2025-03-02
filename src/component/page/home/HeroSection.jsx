@@ -11,7 +11,7 @@ function HeroSection() {
           className="h-60 rounded-full mt-10 ml-23 shadow-2xl shadow-blue-500/50 lg:h-80"
         />
         <div className="p-4 pt-5 box-border lg:pl-30">
-          <h1 className="bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-2xl font-extrabold text-transparent typing-effect">
+          <h1 className="bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-xl font-extrabold text-transparent typing-effect">
             Hello I'm As Siddiqi Pohan <span className="text-white">👋</span>
           </h1>
           <p className="text-lg text-gray-100 mt-5 text-justify pr-4 lg:w-[80%]">

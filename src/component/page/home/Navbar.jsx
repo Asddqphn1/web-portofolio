@@ -86,7 +86,7 @@ function Navbar() {
       </nav>
 
       {/* humberger menu */}
-      <nav className="flex gap-30 fixed top-0 z-1 pl-2 pt-2 w-full bg-gray-900 opacity-50 shadow-2xl shadow-cyan-500/50 lg:hidden">
+      <nav className="flex gap-30 fixed top-0 z-1 pl-2 pt-2 box-border w-full bg-black opacity-50 shadow-2xl shadow-cyan-500/50 lg:hidden">
         <button
           onClick={() => setActive(!active)}
           className="h-10 w-10 flex flex-col justify-center items-center gap-1"
@@ -108,7 +108,7 @@ function Navbar() {
           ></span>
         </button>
         <img
-          src="./image/Logo1.png"
+          src="./dist/assets/Logo1.png"
           alt=""
           className="w-10 h-10 mb-2 bg-white rounded-full"
         />

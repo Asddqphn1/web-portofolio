@@ -7,7 +7,7 @@ function Achievement() {
       <h1 className="text-3xl top-30 left-20 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text lg:text-4xl font-extrabold text-transparent font-bold absolute lg:top-25 lg:left-140">
         ACHIEVEMENT
       </h1>
-      <table className="w-80 absolute top-60 left-10 lg:w-250 lg:border-t-2 lg:top-50 lg:left-46 lg:table-fixed">
+      <table className="w-80 absolute top-60 left-5 lg:w-250 lg:border-t-2 lg:top-50 lg:left-46 lg:table-fixed">
         <thead>
           <tr className="bg-gray-600 h-12 bg-linear-to-r from-cyan-500 to-violet-500 text-white ">
             <th>TAHUN</th>

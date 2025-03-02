@@ -8,8 +8,8 @@ function HobySection() {
       <h1 className="text-3xl top-20 left-30 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text lg:text-4xl font-extrabold text-transparent font-bold absolute lg:top-25 lg:left-150">
         HOBBIES
       </h1>
-      <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px] ">
-        <div className="relative -top-80 -left-8 lg:top-0 lg:left-10 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
+      <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px] -ml-10 ">
+        <div className="absolute -top-80 -left-2 lg:top-0 lg:left-10 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
               src="../../../../dist/assets/Gambar3.jpg"
@@ -30,8 +30,8 @@ function HobySection() {
           </div>
         </div>
       </div>
-      <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px]">
-        <div className="relative -top-100 -left-8 lg:top-0 lg:left-4 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
+      <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px] -ml-10">
+        <div className="absolute -top-100 -left-2 lg:top-0 lg:left-4 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
               src="../../../../dist/assets/image.png"
@@ -52,8 +52,8 @@ function HobySection() {
           </div>
         </div>
       </div>
-      <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px]">
-        <div className="relative -top-120 -left-8 lg:top-0 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
+      <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px] -ml-10">
+        <div className="absolute -top-120 -left-2 lg:top-0 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
               src="../../../../dist/assets/Desaign.png"
