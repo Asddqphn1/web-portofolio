@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav className="hidden lg:flex fixed z-2 top-0 text-gray-300 gap-[20%] w-screen pl-3 pt-3 bg-gray-900 shadow-2xl shadow-cyan-700/50 lg:box-border">
         <img
-          src="./dist/assets/Logo1.png"
+          src="./src/assets/Logo.png"
           alt=""
           className="w-13 h-13 mb-2 bg-white rounded-full"
         />

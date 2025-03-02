@@ -1,8 +1,8 @@
 import Stack from "../../react-bits/Stack";
-import PohanJalan from "../../../../dist/assets/PohanJalan-BpHIgRih.jpg";
-import Gambar1 from "../../../../dist/assets/Gambar1-Dq3fjSTv.jpg";
-import Gambar2 from "../../../../dist/assets/Gambar2-Cgjve2Ph.jpg";
-import Gambar3 from "../../../../dist/assets/Gambar3.jpg";
+import PohanJalan from "../../../assets/PohanJalan.jpg";
+import Gambar1 from "../../../assets/Gambar1.jpg";
+import Gambar2 from "../../../assets/Gambar2.jpg";
+import Gambar3 from "../../../assets/Gambar3-BW0C_W3c.jpg";
 
 function AboutSection() {
   const images = [

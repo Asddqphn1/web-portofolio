@@ -12,7 +12,7 @@ function HobySection() {
         <div className="absolute -top-80 -left-2 lg:top-0 lg:left-10 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
-              src="../../../../dist/assets/Gambar3.jpg"
+              src="./src/assets/Gambar3-BW0C_W3c.jpg"
               alt=""
               className="w-full h-70"
             />
@@ -34,7 +34,7 @@ function HobySection() {
         <div className="absolute -top-100 -left-2 lg:top-0 lg:left-4 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
-              src="../../../../dist/assets/image.png"
+              src="./src/assets/rubik.png"
               alt=""
               className="w-full h-70"
             />
@@ -56,7 +56,7 @@ function HobySection() {
         <div className="absolute -top-120 -left-2 lg:top-0 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
-              src="../../../../dist/assets/Desaign.png"
+              src="./src/assets/Game.png"
               alt=""
               className="w-full h-70"
             />
