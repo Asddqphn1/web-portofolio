@@ -1,9 +1,12 @@
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
+
 
 import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
   const [active, setActive] = useState(true);
+  const location = useLocation();
 
   return (
     <>
@@ -16,7 +19,11 @@ function Navbar() {
         <ul className="flex gap-[30%] pt-3 ">
           <li>
             <HashLink
-              className="inline-block font-extrabold hover:text-white hover:-translate-y-2 hover:scale-110 hover: transition duration-300 ease-in-out"
+              className={`inline-block font-extrabold  hover:text-white hover:-translate-y-2 hover:scale-110 hover: transition duration-300 ease-in-out ${
+                location.hash === ""
+                  ? "bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text font-extrabold text-transparent scale-105"
+                  : ""
+              }`}
               smooth
               to={"#"}
             >
@@ -25,7 +32,11 @@ function Navbar() {
           </li>
           <li>
             <HashLink
-              className="inline-block font-extrabold hover:text-white hover:-translate-y-2 hover:scale-110 hover: transition duration-300 ease-in-out"
+              className={`inline-block font-extrabold  hover:text-white hover:-translate-y-2 hover:scale-110 hover: transition duration-300 ease-in-out ${
+                location.hash === "#AboutSection"
+                  ? "bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text font-extrabold text-transparent scale-105"
+                  : ""
+              }`}
               smooth
               to={"#AboutSection"}
             >
@@ -34,7 +45,11 @@ function Navbar() {
           </li>
           <li>
             <HashLink
-              className="inline-block font-extrabold hover:text-white hover:-translate-y-2 hover:scale-110 hover: transition duration-300 ease-in-out"
+              className={`inline-block font-extrabold  hover:text-white hover:-translate-y-2 hover:scale-110 hover: transition duration-300 ease-in-out ${
+                location.hash === "#AchievementSection"
+                  ? "bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text font-extrabold text-transparent scale-105"
+                  : ""
+              }`}
               smooth
               to={"#AchievementSection"}
             >
@@ -43,7 +58,11 @@ function Navbar() {
           </li>
           <li>
             <HashLink
-              className="inline-block font-extrabold hover:text-white hover:-translate-y-2 hover:scale-110 hover: transition duration-300 ease-in-out"
+              className={`inline-block font-extrabold  hover:text-white hover:-translate-y-2 hover:scale-110 hover: transition duration-300 ease-in-out ${
+                location.hash === "#HobySection"
+                  ? "bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text font-extrabold text-transparent scale-105"
+                  : ""
+              }`}
               smooth
               to={"#HobySection"}
             >
@@ -52,7 +71,11 @@ function Navbar() {
           </li>
           <li>
             <HashLink
-              className="inline-block font-extrabold hover:text-white hover:-translate-y-2 hover:scale-110 hover: transition duration-300 ease-in-out"
+              className={`inline-block font-extrabold  hover:text-white hover:-translate-y-2 hover:scale-110 hover: transition duration-300 ease-in-out ${
+                location.hash === "#ContactSection"
+                  ? "bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text font-extrabold text-transparent scale-105"
+                  : ""
+              }`}
               smooth
               to={"#ContactSection"}
             >
