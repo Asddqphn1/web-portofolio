@@ -5,14 +5,14 @@ function HobySection() {
       id="HobySection"
       className="poppins-light h-[300vh] lg:h-screen w-full bg-linear-to-t from-black to-gray-800 absolute top-[300vh] flex flex-col lg:flex-row pl-20 pr-20 pt-45 place-content-center gap-40"
     >
-      <h1 className="text-3xl -mt-5 top-20 left-30 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text lg:text-4xl font-extrabold text-transparent font-bold absolute lg:top-25 lg:left-150">
+      <h1 className="text-3xl top-20 left-30 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text lg:text-4xl font-extrabold text-transparent font-bold absolute lg:top-25 lg:left-150">
         HOBBIES
       </h1>
       <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px] ">
-        <div className="relative -top-110 -left-8 lg:top-0 lg:left-10 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
+        <div className="relative -top-80 -left-8 lg:top-0 lg:left-10 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
-              src="../../../../image/Gambar3.jpg"
+              src="../../../../dist/assets/Gambar3.jpg"
               alt=""
               className="w-full h-70"
             />
@@ -31,10 +31,10 @@ function HobySection() {
         </div>
       </div>
       <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px]">
-        <div className="relative -top-130 -left-8 lg:top-0 lg:left-4 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
+        <div className="relative -top-100 -left-8 lg:top-0 lg:left-4 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
-              src="../../../../image/image.png"
+              src="../../../../dist/assets/image.png"
               alt=""
               className="w-full h-70"
             />
@@ -53,10 +53,10 @@ function HobySection() {
         </div>
       </div>
       <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective-[1000px]">
-        <div className="relative -top-150 -left-8 lg:top-0 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
+        <div className="relative -top-120 -left-8 lg:top-0 transform-3d group-hover:rotate-y-[180deg] w-full h-full duration-1000">
           <div className="absolute backface-hidden border-2 border-white bg-white rounded-lg shadow-lg w-full h-full">
             <img
-              src="../../../../image/Desaign.png"
+              src="../../../../dist/assets/Desaign.png"
               alt=""
               className="w-full h-70"
             />
@@ -77,4 +77,4 @@ function HobySection() {
   );
 }
 
-export default HobySection;
+export default HobySection

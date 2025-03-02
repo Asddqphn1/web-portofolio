@@ -6,7 +6,7 @@ function HeroSection() {
         className="poppins-light absolute top-0 lg:top-30 lg:flex lg:items-center lg:justify-between lg:px-8 lg:py-4"
       >
         <img
-          src="./image\Foto_Pohan-removebg-preview.png"
+          src="./dist/assets/Foto_Pohan-removebg-preview.png"
           alt=""
           className="h-60 rounded-full mt-10 ml-23 shadow-2xl shadow-blue-500/50 lg:h-80"
         />

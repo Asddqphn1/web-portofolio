@@ -6,7 +6,7 @@ function Footer() {
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center text-teal-600">
           <img
-            src="./image/Logo1.png"
+            src="./dist/assets/Logo1.png"
             alt=""
             className="w-20 h-20 absolute top-10 left-10 lg:left-125"
           />
